@@ -1,0 +1,49 @@
+.\" Copyright (c) 2018 Jim Anderson <thesemicolons@protonmail.com>
+.\" 
+.\" Permission to use, copy, modify, and distribute this software for any
+.\" purpose with or without fee is hereby granted, provided that the
+.\" above copyright notice and this permission notice appear in all
+.\" copies.
+.\" 
+.\" THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL
+.\" WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED
+.\" WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE
+.\" AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL
+.\" DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR
+.\" PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+.\" TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+.\" PERFORMANCE OF THIS SOFTWARE.
+.\"
+.Dd $Mdocdate: January 01 2021 $
+.Dt TERGANO 1
+.Os
+.Sh NAME
+.Nm tergano
+.Nd simple static website generator
+.Sh SYNOPSIS
+.Nm
+.Op Fl m
+.Op Fl v
+.Fl i Ar source
+.Fl o Ar target
+.Sh DESCRIPTION
+.Nm
+is a simple static website generator with the ability to parse markdown
+files in addition to website generation from html files.
+.Sh OPTIONS
+.Bl -tag -width Ds
+.It Fl m
+Indicates that the source files are in markdown not html.
+.It Fl v
+Verbose processing. Display each file as it is processed.
+.It Fl i Ar source
+The folder containing the source files.
+.It Fl o Ar target
+The folder to be used for the html output.
+.Sh AUTHORS
+.An -nosplit
+The
+.Nm
+program was written by
+.An Jim Anderson Aq Mt thesemicolons@protonmail.com .
+

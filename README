@@ -1,0 +1,8 @@
+Tergano is a simple static website generator with the ability to parse
+markdown files in addition to website generation from html files.
+
+Tergano is written to run on OpenBSD and will make use of PLEDGE(2), and
+UNVEIL(2), in addition to other OpenBSD specific features.
+
+All code is available under the OpenBSD style ISC License.
+

@@ -1,0 +1,10 @@
+* Add function for parsing John Gruber's markdown (in work).
+* Add function for reading a file and storing contents 2 MB at a time.
+* Add function for creating and storing lists of directories, files, or
+    both using malloc() and free().
+* Main program for testing sub functions. Needs to be rewritten to be an
+    actual program eventually.
+* Add makefile.
+* Add man page.
+* Add license text.
+
